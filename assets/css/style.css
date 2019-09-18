@@ -1,27 +1,34 @@
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 0%;
-}
-.center {
-    display: inline-block;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(150, 150, 150);
+    border-bottom-width: 1px;
+    margin-top: -10px;
+    background-color: #ffffff;
 }
 .left {
-    display: inline-block;
     color: white;
     height: 100%;
     background-color: rgb(78, 170, 164);
     text-align: center;
     margin-left: 15%;
+    padding: 5px;
 }
 .right {
-    display: inline inline-block;
     margin-right: 15%;
 }
 
 .textBottom {
     position: relative;
     bottom: 0px;
+    border-left-style: solid;
+    border-left-color: rgb(150, 150, 150);
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(150, 150, 150);
+    border-right-width: 1px;
+    padding: 5px;
 }
 
 .body {
@@ -31,26 +38,22 @@
     padding-right: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
-    display:inline-block;
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 20px;
+    background-color: #ffffff;
 }
 .img {
-    display: inline-block;
     top: 10px;
     right: 10px;
-    max-width: 100px;
-    max-height: 100px;
-    display: inline-block;
+    /* max-width: 100px;
+    max-height: 100px; */
 }
 p {
-    display: inline-block;
     color: #777777;
     background: #ffffff;
     line-height: 1.6;
-    display: inline-block;
     color: #777777;
     background: #ffffff;
     line-height: 1.6;
@@ -72,6 +75,7 @@ h2 {
     position: relative;
     width: 100%;
     height: 100%;
+    background-image: url("../images/Background.png");
 }
 
 .textField {
@@ -97,19 +101,22 @@ h2 {
 }
 
 .grid {
-    position: relative;
-    display: grid;
-    grid-gap: 10px;
-    grid-column: span;
-    grid-row: span;
-    width: 100%
+    display: inline-grid;
 }
 
 .gridItem {
     position: relative;
     width: 200px;
     height: 200px;
-    background: green;
+    padding: 10px;
+}
+
+.girdItemText {
+    position: relative;
+    background: rgb(78, 170, 164);
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .one {

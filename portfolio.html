@@ -4,6 +4,7 @@
         <title>
             About Me
         </title>
+        <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body class="container">
@@ -14,22 +15,27 @@
             <!--div class="center"> </div -->
             <div class="right">
                 <div style="width: 100%; height: 40%;"></div>
-                <a class="textBottom" href="galary.html">About</a>
+                <a class="textBottom" style="border-left-style: none; border-right-style: none;" href="galary.html">About</a>
                 <a class="textBottom" href="portfolio.html">Portfolio</a>
-                <a class="textBottom" href="contact.html">Contact</a>
+                <a class="textBottom" style="border-right-style: none; border-left-style: none;"href="contact.html">Contact</a>
             </div>
         </div>
-        <hr>
         <div class="body">
             <h2> About Me </h2>
             <hr>
-            <div class="img">
-                <img src="assets/images/Display_Pic.jpg"/>
-            </div>
-            <p>
-                I am passionate software developer with extensive knowledge of technology. I would explain myself as very positive and fastpaced developer.
-                Professionaly I have experiece with iOS application development for close to 8 years. I have worked extensively on many iOS applications in variety of domains.
-                Some of the applications i would like to highlite are listed below.
+            <div>
+                <div style="display: flex;">
+                    <div class="img">
+                        <img src="assets/images/Display_Pic.jpg"/>
+                    </div>
+                    <p style="padding-left: 10px;">
+                        I am passionate software developer with extensive knowledge of technology. I would explain myself as very positive and fastpaced developer.
+                        Professionaly I have experiece with iOS application development for close to 8 years. I have worked extensively on many iOS applications in variety of domains.
+                        I have successfully completed Full Stack Web Development Coding Bootcamp at Harvard University. 
+                        During the bootcamp I gained extensive knowledge on javascript, HTML, CSS, Node Js, MySQL and other related technologies.
+                        Some of the applications i would like to highlite are listed below.
+                    </p>
+                </div>
                 <ul>
                     <li>
                         <a href="https://apps.apple.com/us/app/paypal-here-point-of-sale/id505911015">Paypal Here</a>
@@ -53,11 +59,7 @@
                         <a href="https://itunes.apple.com/in/app/audit-intelligence/id687239249?mt=8">Audit Intelligence</a>
                     </li>
                 </ul>
-            </p>
-            <p>
-                I have successfully completed Full Stack Web Development Coding Bootcamp at Harvard University. 
-                During the bootcamp I gained extensive knowledge on javascript, HTML, CSS, Node Js, MySQL and other related technologies.
-            </p>
+            </div>
         </div>
     </body>
 </html>
