@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Cute+Font|Turret+Road&display=swap");
 .header {
     display: flex;
     justify-content: space-between;
@@ -44,6 +45,7 @@
     margin-right: 15%;
     margin-top: 20px;
     background-color: #ffffff;
+    font-family: 'Cute Font', cursive;
 }
 .img {
     top: 10px;
@@ -60,7 +62,7 @@ p {
 }
 body { 
     background: #ffffff;
-    font-family: "Arial", Helvetica, sans-serif;
+    font-family: 'Cute Font', cursive;
     font-size: 15px;
 }
 
@@ -94,7 +96,6 @@ h2 {
     width: 15%;
     height: 30%;
     color: #ffffff;
-    font-family: "Arial", Helvetica, sans-serif;
     font-size: 20px;
 }
 
@@ -109,6 +110,8 @@ h2 {
     width: 200px;
     height: 200px;
     padding: 10px;
+    border: 1px solid lightgray;
+    margin: 0px;
 }
 
 .girdItemText {
@@ -116,7 +119,9 @@ h2 {
     background: rgb(78, 170, 164);
     color: #ffffff;
     text-align: center;
+    margin: 0px;
     margin-bottom: 10px;
+    /* font-family: 'Turret Road', cursive; */
 }
 
 .footer {
@@ -126,12 +131,16 @@ h2 {
     border-top-style: solid;
     border-top-color: rgb(78, 170, 164);
     border-top-width: 5px;
-    bottom: 0px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+    margin-top: 20px;
  }
+ 
  .footerDiv {
     width: 30%;
     height: 100%;
  }
+
  .footerText {
     color: #ffffff;
     text-align: center;
