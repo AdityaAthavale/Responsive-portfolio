@@ -5,6 +5,7 @@
     border-bottom-color: rgb(150, 150, 150);
     border-bottom-width: 1px;
     margin-top: -10px;
+    margin-left: -10px;
     background-color: #ffffff;
 }
 .left {
@@ -54,9 +55,6 @@ p {
     color: #777777;
     background: #ffffff;
     line-height: 1.6;
-    color: #777777;
-    background: #ffffff;
-    line-height: 1.6;
     width: 100%;
     padding-bottom: 10px;
 }
@@ -102,6 +100,8 @@ h2 {
 
 .grid {
     display: inline-grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 30px;
 }
 
 .gridItem {
@@ -119,27 +119,29 @@ h2 {
     margin-bottom: 10px;
 }
 
-.one {
-    grid-column: 1;
-    grid-row: 1;
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    border-top-color: green;
+    border-top-width: 5px;
+    border-top-style: solid;
+    height: 40px;
 }
-.two {
-    grid-column: 2;;
-    grid-row: 1;
+
+.footerText {
+    color: white;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    background-color: gray;
+    padding-bottom: 0px;
 }
-.three {
-    grid-column: 3;
-    grid-row: 1;
-}
-.four {
-    grid-column: 1;
-    grid-row: 2;
-}
-.five {
-    grid-column: 2;
-    grid-row: 2;
-}
-.six {
-    grid-column: 3;
-    grid-row: 2;
+
+.divFooter {
+    width: 30%;
+    height: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    line-height: 1;
 }
