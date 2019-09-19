@@ -122,26 +122,18 @@ h2 {
 .footer {
     display: flex;
     justify-content: space-between;
-    background-color: gray;
-    border-top-color: green;
-    border-top-width: 5px;
+    background: rgb(102, 102, 102);
     border-top-style: solid;
-    height: 40px;
-}
-
-.footerText {
-    color: white;
+    border-top-color: rgb(78, 170, 164);
+    border-top-width: 5px;
+    bottom: 0px;
+ }
+ .footerDiv {
     width: 30%;
     height: 100%;
+ }
+ .footerText {
+    color: #ffffff;
     text-align: center;
-    background-color: gray;
-    padding-bottom: 0px;
-}
-
-.divFooter {
-    width: 30%;
-    height: 100%;
-    margin-top: 0px;
-    margin-left: 0px;
-    line-height: 1;
-}
+    background: rgb(102, 102, 102);
+ }
