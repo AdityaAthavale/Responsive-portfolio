@@ -53,11 +53,12 @@
     background-color: #ffffff;
     font-family: 'Turret Road', cursive;
 }
-.img {
+img {
     top: 10px;
     right: 10px;
-    /* max-width: 100px;
-    max-height: 100px; */
+    object-fit: fill;
+    max-width: 80%;
+    max-height: 100%;
 }
 p {
     color: #777777;
@@ -91,7 +92,8 @@ h2 {
 
 .textArea {
     position: relative;
-    width: 90%
+    width: inherit;
+    padding: 10px;
 }
 
 .button {
@@ -126,7 +128,9 @@ h2 {
     color: #ffffff;
     text-align: center;
     margin: 0px;
+    padding: 0px;
     margin-bottom: 10px;
+    width: 100%;
     font-size: 18px;
 }
 
