@@ -1,3 +1,7 @@
+.imageHolder {
+    height: 70%;
+}
+
 .grid {
     display: inline-grid;
     grid-template-columns: 33% 33% 33%;
