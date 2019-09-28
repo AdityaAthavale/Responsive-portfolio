@@ -1,0 +1,17 @@
+#aboutBody {
+    display: flex;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #aboutBody {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #aboutBody {
+        display: block;
+    }
+}
